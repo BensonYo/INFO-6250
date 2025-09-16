@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Favorite Animals</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img class="brand__logo" src="https://placekitten.com/64/64" alt="Cat logo">
+      <h1 class="brand__title">My Favorite Animals</h1>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="site-nav__link" href="index.html">Home</a>
+      <a class="site-nav__link" href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="animal-section" aria-labelledby="animal-heading">
+      <h2 id="animal-heading">Top Picks</h2>
+
+      <!-- requirement: an unordered list; each entry links to a relevant webpage -->
+      <ul class="animal-list">
+        <li class="animal-item">
+          <a class="animal-link" href="https://www.audubon.org/birds/owl" target="_blank" rel="noopener noreferrer">Owls</a>
+        </li>
+        <li class="animal-item">
+          <a class="animal-link" href="https://www.worldwildlife.org/species/tiger" target="_blank" rel="noopener noreferrer">Tigers</a>
+        </li>
+        <li class="animal-item">
+          <a class="animal-link" href="https://www.nationalgeographic.com/animals/mammals/f/fennec-fox/" target="_blank" rel="noopener noreferrer">Fennec Foxes</a>
+        </li>
+        <li class="animal-item">
+          <a class="animal-link" href="https://www.natgeokids.com/uk/discover/animals/sea-life/sea-otter-facts/" target="_blank" rel="noopener noreferrer">Sea Otters</a>
+        </li>
+        <li class="animal-item">
+          <a class="animal-link" href="https://en.wikipedia.org/wiki/Jorts_(cat)" target="_blank" rel="noopener noreferrer">Jorts the Cat</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- requirement: footer links to privacy.html -->
+  <footer class="site-footer">
+    <p class="site-footer__text">
+      <a class="site-footer__link" href="privacy.html">Privacy Policy</a>
+    </p>
+  </footer>
+</body>
+</html>
